@@ -1,0 +1,25 @@
+<div class="wholepage">
+    <div class="navbar">
+        <br />
+        <a href="/">Brew2u</a>
+        <!-- <div class="somemargin"> -->
+        <mat-menu #appMenu="matMenu">
+            <button mat-menu-item routerLink="/menu">Our Menu</button>
+            <button mat-menu-item routerLink="/account">Account</button>
+            <button mat-menu-item routerLink="/about">About Us</button>
+            <button mat-menu-item routerLink="/contact">Contact Us</button>
+        </mat-menu>
+        <div class="somemargin">
+            <button mat-icon-button [matMenuTriggerFor]="appMenu">
+                NavBar
+            </button>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <router-outlet></router-outlet>
+</div>

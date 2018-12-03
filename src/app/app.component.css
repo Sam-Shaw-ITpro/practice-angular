@@ -1,0 +1,35 @@
+.wholepage {
+    opacity: .7;
+    text-align: center;
+    background-image: url("../assets/10.png");
+    width: 100%;
+    min-height: 680px;
+    /* height: 680px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.somemargin {
+    display: inline-block;
+    text-align-last: right;
+    height: 50px;
+    width: 50px;
+    /* margin-top: 1em; */
+    /* padding-bottom: 2em; */
+    margin-left: 1em;
+}
+
+.navbar {
+    font-family: 'Lalezar', cursive;
+    text-align: center;
+    padding: 0%;
+}
+
+.navbar a {
+    font-family: 'Lalezar', cursive;
+    /* display: inline-block; */
+    padding: 0%;
+    font-size: 4em;
+    color: black;
+    text-decoration: none;
+}

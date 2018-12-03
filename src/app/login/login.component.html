@@ -1,0 +1,31 @@
+<!-- <mat-card> -->
+<mat-card class="logincard">
+  <!-- <mat-card class="example-card"> -->
+  <!-- <mat-card-header>
+    <mat-card-title></mat-card-title>
+  </mat-card-header> -->
+  <!-- <mat-card-content> -->
+    <form>
+      <!-- <form class="example-form"> -->
+      <mat-form-field appearance="outline">
+        <mat-label>Email Address</mat-label>
+        <input matInput placeholder="Email Address" [(ngModel)]="username" name="username" required>
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        <mat-hint>sam@gmail.com</mat-hint>
+      </mat-form-field>
+      <br />
+      <br />
+      <mat-form-field appearance="outline">
+        <mat-label>Password</mat-label>
+        <input matInput placeholder="Password" [(ngModel)]="password" name="password" required>
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        <mat-hint>ilikecoffee</mat-hint>
+      </mat-form-field>
+    </form>
+    <!-- <mat-spinner [style.display]="showSpinner ? 'block' : 'none'"></mat-spinner> -->
+  <!-- </mat-card-content> -->
+  <mat-card-actions>
+    <button mat-raised-button (click)="login()">Login</button>
+    <!-- <button mat-raised-button (click)="noLogin()">Register</button> -->
+  </mat-card-actions>
+</mat-card>
